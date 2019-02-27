@@ -8,13 +8,19 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
-
+class LoginViewController: UIViewController {
+    
+    @IBOutlet weak var verify: UIButton!
+    
+    @IBAction func verifyOntap(_ sender: Any) {
+    }
+    
+    func viewInit() {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-
 }
 
