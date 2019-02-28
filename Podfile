@@ -7,5 +7,6 @@ target 'AboutUs' do
 
   # Pods for AboutUs
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
 end
